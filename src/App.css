@@ -8,3 +8,7 @@
 @media(max-width:680px){.intro-inner{grid-template-columns:minmax(0,1fr) 110px}.intro h2{font-size:28px}.primary{width:100%}.header-stamp{display:none}}
 @media(max-width:380px){.intro-inner{grid-template-columns:1fr}.intro h2{font-size:34px}}
 .header-stamp{background:#281b35e8}
+/* Supplied character portrait, kept uncropped so the entire scene remains visible. */
+.portrait img{display:block;width:100%;height:auto;margin-top:24px}
+.portrait .portrait-label{font-size:8px}
+@media(max-width:680px){.intro-inner{grid-template-columns:1fr}.portrait{width:min(100%,260px);justify-self:center}.intro h2{font-size:34px}.primary{width:235px}.portrait .portrait-caption{font-size:11px}.portrait small{font-size:10px}}
